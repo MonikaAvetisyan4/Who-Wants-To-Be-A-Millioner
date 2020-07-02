@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 575px;
+	background: rgb(145,224,233);
+   background: linear-gradient(0deg, rgba(145,224,233,1) 0%, rgba(45,81,253,0.938813025210084) 100%);
+}
+.main{
+	width: 70%;
+	height: 480px;
+	margin: 50px auto;
+	display: flex;
+}
+.first{
+	width: 60%;
+	height: 480px;
+	border: 1px solid #48929B
+}
+.second{
+	width: 40%;
+	height: 480px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center
+}
+.image{
+	width: 100%;
+	height: 220px;
+	background-image: url("../images/img-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.question{
+	width: 90%;
+	border: 2px solid blue;
+	margin: 20px auto;
+	text-align: center;
+	line-height: 2;
+	background-color: black;
+	color: #4D8FAC;
+	border:2px solid #4D8FAC
+}
+.answers{
+	width: 90%;
+	min-height:150px;
+	/* border: 2px solid red; */
+	margin: 20px auto;
+	text-align: center;
+	line-height: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.answers button{
+	width: 200px;
+	height: 50px;
+	background-color: grey;
+	margin: 0 auto;
+	margin: 10px;
+	border:2px solid #4D8FAC;
+	background-color: black;
+	color: #4D8FAC;
+	cursor: pointer
+
+
+}
+.mek, .erku{
+	margin: 0 auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+}
+.money,.help,.first,.second,.image,.question,.answers,.answers button,.mek, .erku{
+	border-radius: 10px;
+}
+.answersss{
+	color: #FFB61E;
+	float: left;
+	margin-left: 10px;
+	background-color: black;
+	width: 35px;
+	border-radius: 10px;
+	border: 1px solid #FFB61E;
+}
+.help{
+	width: 90%;
+	height: 80px;
+	border:1px solid #4D8FAC;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	cursor: pointer;
+	padding: 5px;
+}
+.money{
+	width: 90%;
+	height: 390px;
+	border:1px solid #4D8FAC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column
+
+	
+}
+.helpsss{
+	width: 80px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.help img{
+	width: 60px;
+	height: auto
+}
+.points{
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	line-height: 2;
+
+}
+.smallest{
+	width: 60%;
+	height:30px;
+	line-height: 1.3;
+	text-align: center;
+	background-color: black;
+	border:1px solid #4D8FAC;
+	color: #FFB61E ;
+	border-radius: 10px;
+	    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+	width: 10px;
+	height: 10px;
+	display: none;
+	/* position: absolute */
+}
+#mon{
+    color: #bf4239;
+    border: 1px solid #bf4239;
+    margin: 6px;
+    border-radius: 10px;
+    padding: 2px;
+}
